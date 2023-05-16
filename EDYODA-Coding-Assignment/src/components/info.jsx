@@ -16,8 +16,8 @@ export const Info = () => {
     
     const [month, setMonth] = useState("12")
     const [price, setPrice] = useState("179")
-    const [discountPrice, setDiscountPrice] = useState("18,288.78")
-    const [finalPrice, setFinalPrice] = useState("211.22")
+    const [discountPrice, setDiscountPrice] = useState("11,302.18")
+    const [finalPrice, setFinalPrice] = useState("112.32")
 
     //To set background of selected subcription plan
     const renderMonthSelect = (id) => {
@@ -40,7 +40,7 @@ export const Info = () => {
         }
       }
     
-    //To Calculte the 18% GST
+    //To Calculte  18% GST
       const percentage = (partialValue, totalValue) => {
         return (totalValue * partialValue) /100 ;
      }
