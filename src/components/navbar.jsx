@@ -9,7 +9,7 @@ export const Navbar = () => {
             <section  className="bg-white h-[72px] flex justify-between items-center px-20 py-6 text-base">
                 <div className="flex space-x-16">
                     <img  src={EDYODA}/>
-                    <h1 className="flex items-center ">Cources<span className="ps-4">{<FiChevronDown/>}</span></h1>
+                    <h1 className="flex items-center ">Courses<span className="ps-4">{<FiChevronDown/>}</span></h1>
                     <h2 className="flex items-center ">Programs<span className="ps-4">{<FiChevronDown/>}</span></h2>
                 </div>
                 <div className="flex space-x-16 items-center">
